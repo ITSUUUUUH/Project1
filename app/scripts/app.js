@@ -24,10 +24,25 @@ angular
         controller: 'MainCtrl',
         controllerAs: 'main'
       })
-      .when('/about', {
-        templateUrl: 'views/about.html',
-        controller: 'AboutCtrl',
-        controllerAs: 'about'
+      .when('/git', {
+        templateUrl: 'views/git.html',
+        controller: 'GitCtrl',
+        controllerAs: 'git'
+      })
+      .when('/yeoman', {
+        templateUrl: 'views/yeoman.html',
+        controller: 'YeomanCtrl',
+        controllerAs: 'yeoman'
+      })
+      .when('/github', {
+        templateUrl: 'views/github.html',
+        controller: 'GitHubCtrl',
+        controllerAs: 'github'
+      })
+      .when('/contact', {
+        templateUrl: 'views/contact.html',
+        controller: 'ContactCtrl',
+        controllerAs: 'contact'
       })
       .otherwise({
         redirectTo: '/'
