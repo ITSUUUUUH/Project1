@@ -12,4 +12,3 @@ new comment
 
 Running `grunt test` will run the unit tests with karma.
 
->>>>>>> 7de4735762e3703f2a69cd87f699fd96a0dc6bc0
