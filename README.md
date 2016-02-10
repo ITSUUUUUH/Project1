@@ -8,7 +8,7 @@ Run `grunt` for building and `grunt serve` for preview.
 
 ## Testing
 
-new comment 
+comment 
 
 Running `grunt test` will run the unit tests with karma.
 
